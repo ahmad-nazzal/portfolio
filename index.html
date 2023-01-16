@@ -6,42 +6,582 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
     <link href="images/icon.svg" rel="icon" />
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
+    <link
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script defer src="javascritp.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <title>Ahmad Nazzal portfiol</title>
   </head>
   <body>
-    <video src="images/Laptop - 1657.mp4" muted loop autoplay></video>
-    <header class="header">
-      <h1 class="nani">NANI</h1>
-      <nav>
-        <ul class="main-nav">
-          <li><a href="#" class="main-nav-link">Home</a></li>
-          <li><a href="#" class="main-nav-link">About me</a></li>
-          <li><a href="#" class="main-nav-link">Skills</a></li>
-          <li><a href="#" class="main-nav-link">Works</a></li>
-          <li><a href="#" class="main-nav-link nav-cta">Contact Me</a></li>
-        </ul>
+    <video
+      class="video"
+      id="video"
+      src="images/Laptop - 1657.mp4"
+      muted
+      loop
+      autoplay
+    ></video>
+    <header>
+      <nav class="navbar autohide navbar-expand-lg navbar-dark" id="navbar">
+        <div class="container-fluid fs-4 navv">
+          <a class="navbar-brand nani" href="#"
+            ><img
+              src="images/my_img.jpg"
+              alt="person programming"
+              class="hero-image"
+            />
+            &nbsp;Ahmad Nazzal</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Works</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Contact Me</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <main class="main">
       <section class="section-hero">
-        <div class="hero grid grid--2-cols">
-          <div class="hero-left">
-            <h3 class="hello">Hello</h3>
-            <h5 class="iam">I'm</h5>
-            <h1 class="ahmad">Ahmad Nazzal</h1>
-            <h4 class="CE">Computer Engineer</h4>
+        <div
+          class="container hero d-flex flex-column justify-content-center align-items-center"
+          id="hero"
+        >
+          <div>
+            <h3 class="hello text-center">Hello, I'm Ahmad Nazzal</h3>
+            <!-- <h5 class="iam">I'm</h5> -->
+            <h1 class="ahmad">Computer Engineer</h1>
+            <h4 class="CE text-center">
+              Experience in
+              <span class="word"></span>
+            </h4>
           </div>
-          <div class="hero-right">
-            <!--  <img
-              src="images/programming.svg"
-              alt="person programming"
-              class="hero-image"
-            /> -->
+          <div class="d-flex justify-content-between mt-3">
+            <a href="https://www.facebook.com/nazzal121/" target="_blank">
+              <img src="images/facebook.ico" class="me-4 icons" />
+            </a>
+            <a
+              href="https://www.instagram.com/7mada.m.2002/?fbclid=IwAR3MsqJpMh6jClkqX3BzyjxjRSx2l6aftfQTKVXR_cnKKSwPjHLvh8VAzK4"
+              target="_blank"
+            >
+              <img src="images/insta.png" class="me-4 icons" />
+            </a>
+            <a href="https://wa.me/970595036181" target="_blank">
+              <img src="images/whatss.png" class="me-4 icons" />
+            </a>
+            <a href="https://github.com/ahmad-nazzal" target="_blank">
+              <img src="images/gitt.png" class="icons" />
+            </a>
           </div>
         </div>
       </section>
-      <section class="sec">ahmadf</section>
+      <section class="projects">
+        <div class="container">
+          <h1 class="project-word skillsW">Projects</h1>
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide DataBase">
+                <iframe
+                  class="DataBase"
+                  width="1000"
+                  height="400"
+                  src="https://www.youtube.com/embed/UZ_lj8uxgrc"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+                <div class="container db-text">
+                  <p>
+                    Curabitur eget aliquam erat. Curabitur a neque vitae purus
+                    volutpat elementum. Vivamus quis vestibulum leo, efficitur
+                    ullamcorper velit. Integer tincidunt finibus metus vel
+                    porta. Mauris sed mauris congue, pretium est nec, malesuada
+                    purus. Nulla hendrerit consectetur arcu et lacinia.
+                    Suspendisse augue justo, convallis eget arcu in, pretium
+                    tempor ligula. Nullam vulputate tincidunt est ut
+                    ullamcorper.
+                  </p>
+                  <p>
+                    Curabitur sed sodales leo. Nulla facilisi. Etiam
+                    condimentum, nisi id tempor vulputate, nisi justo cursus
+                    justo, pellentesque condimentum diam arcu sit amet leo. Cum
+                    sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus. In placerat tellus a posuere
+                    vehicula. Donec diam massa, efficitur vitae mattis et,
+                    pretium in augue. Fusce iaculis mi quis ante venenatis, sit
+                    amet pellentesque orci aliquam. Vestibulum elementum posuere
+                    vehicula.
+                  </p>
+                  <p>
+                    Sed tincidunt diam a massa pharetra faucibus. Praesent
+                    condimentum id arcu nec fringilla. Maecenas faucibus, ante
+                    et venenatis interdum, erat mi eleifend dui, at convallis
+                    nisl est nec arcu. Duis vitae arcu rhoncus, faucibus magna
+                    ut, tempus metus. Cras in nibh sed ipsum consequat rhoncus.
+                    Proin fringilla nulla ut augue tempor fermentum. Nunc
+                    hendrerit non nisi vitae finibus. Donec eget ornare libero.
+                    Aliquam auctor erat enim, a semper risus semper at. In ut
+                    dui in metus tincidunt euismod eget et lacus. Aenean et
+                    dictum urna, sed rhoncus lorem. Duis pharetra sagittis odio.
+                    Etiam a libero ut nisi feugiat tincidunt vel vitae turpis.
+                    Maecenas vel orci sit amet lorem hendrerit venenatis
+                    sollicitudin ut dui. Quisque rhoncus nibh in massa pretium
+                    scelerisque.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    luctus, ex eu sagittis faucibus, ligula ipsum sagittis
+                    magna, et imperdiet dolor lectus eu libero. Vestibulum
+                    venenatis eget turpis sed faucibus. Maecenas in ullamcorper
+                    orci, eu ullamcorper sem. Etiam elit ante, luctus non ante
+                    sit amet, sodales vulputate odio. Aenean tristique nisl
+                    tellus, sit amet fringilla nisl volutpat cursus. Quisque
+                    dignissim lectus ac nunc consectetur mattis. Proin vel
+                    hendrerit ipsum, et lobortis dolor. Vestibulum convallis,
+                    nibh et tincidunt tristique, nisl risus facilisis lectus, ut
+                    interdum orci nisl ac nunc. Cras et aliquam felis. Quisque
+                    vel ipsum at elit sodales posuere eget non est. Fusce
+                    convallis vestibulum dolor non volutpat. Vivamus vestibulum
+                    quam ut ultricies pretium.
+                  </p>
+                </div>
+                <!-- <div class="details">fsadfsdf</div> -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+              <div class="swiper-slide DataBase">
+                <iframe
+                  allowfullscreen
+                  width="1000"
+                  height="400"
+                  class="DataBase"
+                  src="https://www.youtube.com/embed/tgbNymZ7vqY"
+                ></iframe>
+                <div class="container db-text">
+                  <p>
+                    Curabitur eget aliquam erat. Curabitur a neque vitae purus
+                    volutpat elementum. Vivamus quis vestibulum leo, efficitur
+                    ullamcorper velit. Integer tincidunt finibus metus vel
+                    porta. Mauris sed mauris congue, pretium est nec, malesuada
+                    purus. Nulla hendrerit consectetur arcu et lacinia.
+                    Suspendisse augue justo, convallis eget arcu in, pretium
+                    tempor ligula. Nullam vulputate tincidunt est ut
+                    ullamcorper.
+                  </p>
+                  <p>
+                    Curabitur sed sodales leo. Nulla facilisi. Etiam
+                    condimentum, nisi id tempor vulputate, nisi justo cursus
+                    justo, pellentesque condimentum diam arcu sit amet leo. Cum
+                    sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus. In placerat tellus a posuere
+                    vehicula. Donec diam massa, efficitur vitae mattis et,
+                    pretium in augue. Fusce iaculis mi quis ante venenatis, sit
+                    amet pellentesque orci aliquam. Vestibulum elementum posuere
+                    vehicula.
+                  </p>
+                  <p>
+                    Sed tincidunt diam a massa pharetra faucibus. Praesent
+                    condimentum id arcu nec fringilla. Maecenas faucibus, ante
+                    et venenatis interdum, erat mi eleifend dui, at convallis
+                    nisl est nec arcu. Duis vitae arcu rhoncus, faucibus magna
+                    ut, tempus metus. Cras in nibh sed ipsum consequat rhoncus.
+                    Proin fringilla nulla ut augue tempor fermentum. Nunc
+                    hendrerit non nisi vitae finibus. Donec eget ornare libero.
+                    Aliquam auctor erat enim, a semper risus semper at. In ut
+                    dui in metus tincidunt euismod eget et lacus. Aenean et
+                    dictum urna, sed rhoncus lorem. Duis pharetra sagittis odio.
+                    Etiam a libero ut nisi feugiat tincidunt vel vitae turpis.
+                    Maecenas vel orci sit amet lorem hendrerit venenatis
+                    sollicitudin ut dui. Quisque rhoncus nibh in massa pretium
+                    scelerisque.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    luctus, ex eu sagittis faucibus, ligula ipsum sagittis
+                    magna, et imperdiet dolor lectus eu libero. Vestibulum
+                    venenatis eget turpis sed faucibus. Maecenas in ullamcorper
+                    orci, eu ullamcorper sem. Etiam elit ante, luctus non ante
+                    sit amet, sodales vulputate odio. Aenean tristique nisl
+                    tellus, sit amet fringilla nisl volutpat cursus. Quisque
+                    dignissim lectus ac nunc consectetur mattis. Proin vel
+                    hendrerit ipsum, et lobortis dolor. Vestibulum convallis,
+                    nibh et tincidunt tristique, nisl risus facilisis lectus, ut
+                    interdum orci nisl ac nunc. Cras et aliquam felis. Quisque
+                    vel ipsum at elit sodales posuere eget non est. Fusce
+                    convallis vestibulum dolor non volutpat. Vivamus vestibulum
+                    quam ut ultricies pretium.
+                  </p>
+                </div>
+                <!-- <div class="details">fsadfsdf</div> -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+              <div class="swiper-slide DataBase">
+                <iframe
+                  allowfullscreen
+                  width="1000"
+                  height="400"
+                  class="DataBase"
+                  src="https://www.youtube.com/embed/tgbNymZ7vqY"
+                ></iframe>
+                <div class="container db-text">
+                  <p>
+                    Curabitur eget aliquam erat. Curabitur a neque vitae purus
+                    volutpat elementum. Vivamus quis vestibulum leo, efficitur
+                    ullamcorper velit. Integer tincidunt finibus metus vel
+                    porta. Mauris sed mauris congue, pretium est nec, malesuada
+                    purus. Nulla hendrerit consectetur arcu et lacinia.
+                    Suspendisse augue justo, convallis eget arcu in, pretium
+                    tempor ligula. Nullam vulputate tincidunt est ut
+                    ullamcorper.
+                  </p>
+                  <p>
+                    Curabitur sed sodales leo. Nulla facilisi. Etiam
+                    condimentum, nisi id tempor vulputate, nisi justo cursus
+                    justo, pellentesque condimentum diam arcu sit amet leo. Cum
+                    sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus. In placerat tellus a posuere
+                    vehicula. Donec diam massa, efficitur vitae mattis et,
+                    pretium in augue. Fusce iaculis mi quis ante venenatis, sit
+                    amet pellentesque orci aliquam. Vestibulum elementum posuere
+                    vehicula.
+                  </p>
+                  <p>
+                    Sed tincidunt diam a massa pharetra faucibus. Praesent
+                    condimentum id arcu nec fringilla. Maecenas faucibus, ante
+                    et venenatis interdum, erat mi eleifend dui, at convallis
+                    nisl est nec arcu. Duis vitae arcu rhoncus, faucibus magna
+                    ut, tempus metus. Cras in nibh sed ipsum consequat rhoncus.
+                    Proin fringilla nulla ut augue tempor fermentum. Nunc
+                    hendrerit non nisi vitae finibus. Donec eget ornare libero.
+                    Aliquam auctor erat enim, a semper risus semper at. In ut
+                    dui in metus tincidunt euismod eget et lacus. Aenean et
+                    dictum urna, sed rhoncus lorem. Duis pharetra sagittis odio.
+                    Etiam a libero ut nisi feugiat tincidunt vel vitae turpis.
+                    Maecenas vel orci sit amet lorem hendrerit venenatis
+                    sollicitudin ut dui. Quisque rhoncus nibh in massa pretium
+                    scelerisque.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    luctus, ex eu sagittis faucibus, ligula ipsum sagittis
+                    magna, et imperdiet dolor lectus eu libero. Vestibulum
+                    venenatis eget turpis sed faucibus. Maecenas in ullamcorper
+                    orci, eu ullamcorper sem. Etiam elit ante, luctus non ante
+                    sit amet, sodales vulputate odio. Aenean tristique nisl
+                    tellus, sit amet fringilla nisl volutpat cursus. Quisque
+                    dignissim lectus ac nunc consectetur mattis. Proin vel
+                    hendrerit ipsum, et lobortis dolor. Vestibulum convallis,
+                    nibh et tincidunt tristique, nisl risus facilisis lectus, ut
+                    interdum orci nisl ac nunc. Cras et aliquam felis. Quisque
+                    vel ipsum at elit sodales posuere eget non est. Fusce
+                    convallis vestibulum dolor non volutpat. Vivamus vestibulum
+                    quam ut ultricies pretium.
+                  </p>
+                </div>
+                <!-- <div class="details">fsadfsdf</div> -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+              <div class="swiper-slide DataBase">
+                <iframe
+                  allowfullscreen
+                  width="1000"
+                  height="400"
+                  class="DataBase"
+                  src="https://www.youtube.com/embed/tgbNymZ7vqY"
+                ></iframe>
+                <div class="container db-text">
+                  <p>
+                    Curabitur eget aliquam erat. Curabitur a neque vitae purus
+                    volutpat elementum. Vivamus quis vestibulum leo, efficitur
+                    ullamcorper velit. Integer tincidunt finibus metus vel
+                    porta. Mauris sed mauris congue, pretium est nec, malesuada
+                    purus. Nulla hendrerit consectetur arcu et lacinia.
+                    Suspendisse augue justo, convallis eget arcu in, pretium
+                    tempor ligula. Nullam vulputate tincidunt est ut
+                    ullamcorper.
+                  </p>
+                  <p>
+                    Curabitur sed sodales leo. Nulla facilisi. Etiam
+                    condimentum, nisi id tempor vulputate, nisi justo cursus
+                    justo, pellentesque condimentum diam arcu sit amet leo. Cum
+                    sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus. In placerat tellus a posuere
+                    vehicula. Donec diam massa, efficitur vitae mattis et,
+                    pretium in augue. Fusce iaculis mi quis ante venenatis, sit
+                    amet pellentesque orci aliquam. Vestibulum elementum posuere
+                    vehicula.
+                  </p>
+                  <p>
+                    Sed tincidunt diam a massa pharetra faucibus. Praesent
+                    condimentum id arcu nec fringilla. Maecenas faucibus, ante
+                    et venenatis interdum, erat mi eleifend dui, at convallis
+                    nisl est nec arcu. Duis vitae arcu rhoncus, faucibus magna
+                    ut, tempus metus. Cras in nibh sed ipsum consequat rhoncus.
+                    Proin fringilla nulla ut augue tempor fermentum. Nunc
+                    hendrerit non nisi vitae finibus. Donec eget ornare libero.
+                    Aliquam auctor erat enim, a semper risus semper at. In ut
+                    dui in metus tincidunt euismod eget et lacus. Aenean et
+                    dictum urna, sed rhoncus lorem. Duis pharetra sagittis odio.
+                    Etiam a libero ut nisi feugiat tincidunt vel vitae turpis.
+                    Maecenas vel orci sit amet lorem hendrerit venenatis
+                    sollicitudin ut dui. Quisque rhoncus nibh in massa pretium
+                    scelerisque.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    luctus, ex eu sagittis faucibus, ligula ipsum sagittis
+                    magna, et imperdiet dolor lectus eu libero. Vestibulum
+                    venenatis eget turpis sed faucibus. Maecenas in ullamcorper
+                    orci, eu ullamcorper sem. Etiam elit ante, luctus non ante
+                    sit amet, sodales vulputate odio. Aenean tristique nisl
+                    tellus, sit amet fringilla nisl volutpat cursus. Quisque
+                    dignissim lectus ac nunc consectetur mattis. Proin vel
+                    hendrerit ipsum, et lobortis dolor. Vestibulum convallis,
+                    nibh et tincidunt tristique, nisl risus facilisis lectus, ut
+                    interdum orci nisl ac nunc. Cras et aliquam felis. Quisque
+                    vel ipsum at elit sodales posuere eget non est. Fusce
+                    convallis vestibulum dolor non volutpat. Vivamus vestibulum
+                    quam ut ultricies pretium.
+                  </p>
+                </div>
+                <!-- <div class="details">fsadfsdf</div> -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <p class="append-buttons">
+          <a href="#" class="prepend-2-slides">Prepend 2 Slides</a>
+          <a href="#" class="slide-1">Slide 1</a>
+          <a href="#" class="slide-250">Slide 250</a>
+          <a href="#" class="slide-500">Slide 500</a>
+          <a href="#" class="append-slide">Append Slide</a>
+        </p>
+      </section>
+      <!-- Swiper JS -->
+      <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          cssMode: true,
+          rewind: true,
+          pagination: {
+            el: ".swiper-scrollbar",
+            el: ".swiper-pagination",
+            type: "progressbar",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+        document
+          .querySelector(".slide-1")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.slideTo(0, 0);
+          });
+
+        document
+          .querySelector(".slide-250")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.slideTo(249, 0);
+          });
+
+        document
+          .querySelector(".slide-500")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.slideTo(499, 0);
+          });
+
+        document
+          .querySelector(".prepend-2-slides")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.virtual.prependSlide([
+              "Slide " + --prependNumber,
+              "Slide " + --prependNumber,
+            ]);
+          });
+
+        document
+          .querySelector(".append-slide")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.virtual.appendSlide("Slide " + ++appendNumber);
+          });
+      </script>
+      <section class="skills" id="skills">
+        <div class="container" id="bars">
+          <h1 class="skillsW">skills</h1>
+          <div class="skill-bars mt-4 d-flex">
+            <div class="left w-50 me-5">
+              <div class="bar">
+                <div class="info">
+                  <span>C & C++</span>
+                </div>
+                <div class="progress-line c">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>Java</span>
+                </div>
+                <div class="progress-line java">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>Python</span>
+                </div>
+                <div class="progress-line python">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>Git & Github</span>
+                </div>
+                <div class="progress-line git">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>SQL</span>
+                </div>
+                <div class="progress-line mysql">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>NoSQL</span>
+                </div>
+                <div class="progress-line nosql">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>HTML</span>
+                </div>
+                <div class="progress-line html">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="right w-50">
+              <div class="bar">
+                <div class="info">
+                  <span>Css</span>
+                </div>
+                <div class="progress-line css">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>Java Scrpit</span>
+                </div>
+                <div class="progress-line js">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>JQuery</span>
+                </div>
+                <div class="progress-line jquery">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>Bootstrap</span>
+                </div>
+                <div class="progress-line boot">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>PHP</span>
+                </div>
+                <div class="progress-line php">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>PhotoShop</span>
+                </div>
+                <div class="progress-line photo">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>Adobe Premiere</span>
+                </div>
+                <div class="progress-line prem">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer">CopyRight &copy; by Ahmad Nazzal 2023</div>
+    </footer>
   </body>
 </html>
