@@ -1,0 +1,259 @@
+/* 1200 */
+@media (max-width: 75em) {
+  .skills {
+    padding-top: 0rem;
+  }
+}
+
+/* 990 */
+@media (max-width: 61.5em) {
+  .hello {
+    font-size: 1.65rem;
+  }
+  .ahmad {
+    font-size: 3.7rem;
+  }
+  .CE {
+    font-size: 1rem;
+  }
+  .footer {
+    font-size: 0.8rem;
+  }
+  .append-buttons a {
+    font-size: 10px;
+  }
+  .db-text p {
+    font-size: 9px;
+  }
+  .collapse.show > .navbar-nav {
+    align-items: center;
+  }
+  #navbar {
+    background-color: rgba(0, 0, 0, 0.95) !important;
+  }
+  .skillsW,
+  .project-word {
+    font-size: 1.8rem;
+  }
+  .project-word {
+    margin-left: -3.5rem;
+  }
+  .h3 {
+    font-size: 1.3rem !important;
+  }
+  .db-text {
+    padding: 2rem 2.5rem !important;
+  }
+  .swiper-button-prev::after,
+  .swiper-button-next:after {
+    font-size: 2rem !important;
+  }
+}
+/* 730 */
+@media (max-width: 46em) {
+  .ahmad {
+    font-size: 3rem;
+  }
+  .CE {
+    font-size: 1.35rem;
+  }
+  .skillsW,
+  .project-word {
+    font-size: 1.5rem;
+  }
+  .project-word {
+    margin-left: -2.5rem;
+  }
+  .h3 {
+    font-size: 1.1rem !important;
+  }
+  .db-text p {
+    font-size: 12px;
+  }
+  .db-text {
+    padding: 1.5rem 2.5rem !important;
+  }
+  .swiper {
+    max-width: 100%;
+  }
+  .append-buttons a {
+    font-size: 9px;
+  }
+  .progress-line span::after {
+    font-size: 9px;
+  }
+
+  .skill-bars .bar .progress-line {
+    height: 6px;
+  }
+  .progress-line span::after {
+    top: 14px;
+  }
+  .progress-line span::before {
+    top: 10px;
+  }
+}
+
+/* 600 */
+@media (max-width: 38em) {
+  .hero-image {
+    width: 2rem;
+    height: 2rem;
+  }
+  .nani {
+    font-size: 0.85rem !important;
+  }
+  .swiper {
+    max-width: 80%;
+  }
+  .project-word {
+    margin-left: 2rem;
+  }
+  .skill-bars {
+    margin-top: 0rem !important;
+  }
+  .footer {
+    font-size: 0.6rem;
+  }
+  .bar .info span {
+    font-size: 12px !important;
+  }
+  iframe {
+    height: 300px !important;
+  }
+  .db-text p {
+    text-align: center;
+  }
+  .skill-bars .bar {
+    margin: 1.5rem 0;
+  }
+  .skills {
+    padding-bottom: 3rem;
+  }
+  .swiper-button-prev::after,
+  .swiper-button-next:after {
+    font-size: 1.7rem !important;
+  }
+  .temp {
+    min-height: 72vh !important;
+  }
+}
+/* 500 */
+@media (max-width: 31em) {
+  .ahmad {
+    font-size: 2.2rem;
+  }
+  .CE {
+    font-size: 0.75rem;
+  }
+  .hello {
+    font-size: 0.95rem;
+  }
+  iframe {
+    height: 200px !important;
+  }
+  .swiper {
+    height: 400px;
+  }
+  .h3 {
+    font-size: 0.9rem !important;
+  }
+  .db-text p {
+    font-size: 9px;
+    line-height: 1.6;
+  }
+  .swiper-button-prev::after,
+  .swiper-button-next:after {
+    font-size: 1.5rem !important;
+  }
+  .icons {
+    width: 16px;
+    height: 16px;
+    margin-top: 15px;
+  }
+  .temp {
+    min-height: 72vh !important;
+  }
+  .append-buttons {
+    flex-direction: column;
+    gap: 4px;
+    width: 80%;
+    margin: 1rem auto;
+  }
+}
+/* 400 */
+@media (max-width: 25em) {
+  .ahmad {
+    font-size: 1.9rem;
+  }
+  .CE {
+    font-size: 0.7rem;
+  }
+  .hello {
+    font-size: 1.05rem;
+  }
+  iframe {
+    height: 150px !important;
+  }
+  .project-word {
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+  }
+  .projects {
+    padding-top: 3rem !important ;
+    padding-bottom: 2rem !important;
+  }
+  .h3 {
+    font-size: 0.6rem !important;
+  }
+  .db-text p {
+    font-size: 8px;
+  }
+  .swiper-button-next {
+    right: 4px !important;
+  }
+  .swiper-button-prev {
+    left: -2px !important;
+  }
+  .db-text {
+    padding: 1.2rem 1rem !important;
+  }
+  .append-buttons a {
+    font-size: 7px !important;
+    font-weight: 700 !important;
+  }
+  .skills {
+    padding-bottom: 1rem !important;
+  }
+  .skillsW {
+    font-size: 1.1rem;
+  }
+  #bars {
+    max-width: 100% !important  ;
+  }
+  .progress-line span::after {
+    font-size: 5px;
+  }
+
+  .bar .info span {
+    font-size: 10px !important;
+  }
+  .left {
+    margin-right: 1rem !important;
+  }
+  .footer {
+    font-size: 0.4rem;
+  }
+  .hero {
+    margin-top: -2rem !important;
+  }
+  .temp {
+    min-height: 72vh !important;
+  }
+  .append-buttons {
+    flex-direction: column;
+    gap: 4px;
+    width: 80%;
+    margin: 1rem auto;
+  }
+}

@@ -5,9 +5,8 @@ var navbar = document.getElementById("navbar");
 var hero = document.getElementById("hero");
 var sticky = 50;
 function myFunction() {
-  console.log(window.pageYOffset);
   hero.style.transform = "translateY(calc(-1.5 *" + window.pageYOffset + "px))";
-  if (window.pageYOffset > 1100) {
+  if (window.pageYOffset > 1060) {
     $("#bars").slideDown(1500);
   }
   if (window.pageYOffset >= sticky) {
@@ -98,7 +97,6 @@ var wordflick = function () {
 $(document).ready(function () {
   wordflick();
 });
-
 ///
 //parallax
 

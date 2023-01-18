@@ -4,7 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal portfiol for me as programmer" />
+    <meta
+      name="keywords"
+      content="Portfiol,Programmer, personal page,projects,jenin,nablus,palestine"
+    />
+    <meta name="geo.position" content="31.9522;35.2332" />
+    <meta name="ICBM" content="31.9522, 35.2332" />
+
+    <meta name="geo.placename" content="Palestine" />
+
     <link href="style.css" rel="stylesheet" />
+    <link href="queries.css" rel="stylesheet" />
     <link href="images/icon.svg" rel="icon" />
     <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
     <link
@@ -15,12 +26,14 @@
       href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
       rel="stylesheet"
     />
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script defer src="javascritp.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <title>Ahmad Nazzal portfiol</title>
   </head>
   <body>
+    <div class="preloader"></div>
     <video
       class="video"
       id="video"
@@ -57,13 +70,13 @@
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link disabled" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Works</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Works</a>
               </li>
               <li class="nav-item">
                 <a
@@ -94,26 +107,28 @@
               <span class="word"></span>
             </h4>
           </div>
-          <div class="d-flex justify-content-between mt-3">
-            <a href="https://www.facebook.com/nazzal121/" target="_blank">
-              <img src="images/facebook.ico" class="me-4 icons" />
-            </a>
-            <a
-              href="https://www.instagram.com/7mada.m.2002/?fbclid=IwAR3MsqJpMh6jClkqX3BzyjxjRSx2l6aftfQTKVXR_cnKKSwPjHLvh8VAzK4"
-              target="_blank"
-            >
-              <img src="images/insta.png" class="me-4 icons" />
-            </a>
-            <a href="https://wa.me/970595036181" target="_blank">
-              <img src="images/whatss.png" class="me-4 icons" />
-            </a>
-            <a href="https://github.com/ahmad-nazzal" target="_blank">
-              <img src="images/gitt.png" class="icons" />
-            </a>
+          <div class="contact">
+            <div class="d-flex justify-content-between mt-3">
+              <a href="https://www.facebook.com/nazzal121/" target="_blank">
+                <img src="images/facebook.ico" class="me-4 icons" />
+              </a>
+              <a
+                href="https://www.instagram.com/7mada.m.2002/?fbclid=IwAR3MsqJpMh6jClkqX3BzyjxjRSx2l6aftfQTKVXR_cnKKSwPjHLvh8VAzK4"
+                target="_blank"
+              >
+                <img src="images/insta.png" class="me-4 icons" />
+              </a>
+              <a href="https://wa.me/970595036181" target="_blank">
+                <img src="images/whatss.png" class="me-4 icons" />
+              </a>
+              <a href="https://github.com/ahmad-nazzal" target="_blank">
+                <img src="images/gitt.png" class="icons" />
+              </a>
+            </div>
           </div>
         </div>
       </section>
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="container">
           <h1 class="project-word skillsW">Projects</h1>
           <!-- Swiper -->
@@ -122,8 +137,7 @@
               <div class="swiper-slide DataBase">
                 <iframe
                   class="DataBase"
-                  width="1000"
-                  height="400"
+                  width="100%"
                   src="https://www.youtube.com/embed/UZ_lj8uxgrc"
                   title="YouTube video player"
                   frameborder="0"
@@ -131,58 +145,25 @@
                   allowfullscreen
                 ></iframe>
                 <div class="container db-text">
+                  <h3 class="h3">Health Center project (JavaFX)</h3>
                   <p>
-                    Curabitur eget aliquam erat. Curabitur a neque vitae purus
-                    volutpat elementum. Vivamus quis vestibulum leo, efficitur
-                    ullamcorper velit. Integer tincidunt finibus metus vel
-                    porta. Mauris sed mauris congue, pretium est nec, malesuada
-                    purus. Nulla hendrerit consectetur arcu et lacinia.
-                    Suspendisse augue justo, convallis eget arcu in, pretium
-                    tempor ligula. Nullam vulputate tincidunt est ut
-                    ullamcorper.
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This
+                    program is based on the Health Charitable Medical Complex
+                    located in Nablus.
                   </p>
                   <p>
-                    Curabitur sed sodales leo. Nulla facilisi. Etiam
-                    condimentum, nisi id tempor vulputate, nisi justo cursus
-                    justo, pellentesque condimentum diam arcu sit amet leo. Cum
-                    sociis natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. In placerat tellus a posuere
-                    vehicula. Donec diam massa, efficitur vitae mattis et,
-                    pretium in augue. Fusce iaculis mi quis ante venenatis, sit
-                    amet pellentesque orci aliquam. Vestibulum elementum posuere
-                    vehicula.
+                    We visited them and talks to the employees to better
+                    understand how they want a program to work, we conclude that
+                    This program streamlines the process of registering and
+                    gathering information from patients in an inquiry section,
+                    assigning them to an appropriate doctor for treatment, and
+                    printing any necessary prescriptions.
                   </p>
                   <p>
-                    Sed tincidunt diam a massa pharetra faucibus. Praesent
-                    condimentum id arcu nec fringilla. Maecenas faucibus, ante
-                    et venenatis interdum, erat mi eleifend dui, at convallis
-                    nisl est nec arcu. Duis vitae arcu rhoncus, faucibus magna
-                    ut, tempus metus. Cras in nibh sed ipsum consequat rhoncus.
-                    Proin fringilla nulla ut augue tempor fermentum. Nunc
-                    hendrerit non nisi vitae finibus. Donec eget ornare libero.
-                    Aliquam auctor erat enim, a semper risus semper at. In ut
-                    dui in metus tincidunt euismod eget et lacus. Aenean et
-                    dictum urna, sed rhoncus lorem. Duis pharetra sagittis odio.
-                    Etiam a libero ut nisi feugiat tincidunt vel vitae turpis.
-                    Maecenas vel orci sit amet lorem hendrerit venenatis
-                    sollicitudin ut dui. Quisque rhoncus nibh in massa pretium
-                    scelerisque.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    luctus, ex eu sagittis faucibus, ligula ipsum sagittis
-                    magna, et imperdiet dolor lectus eu libero. Vestibulum
-                    venenatis eget turpis sed faucibus. Maecenas in ullamcorper
-                    orci, eu ullamcorper sem. Etiam elit ante, luctus non ante
-                    sit amet, sodales vulputate odio. Aenean tristique nisl
-                    tellus, sit amet fringilla nisl volutpat cursus. Quisque
-                    dignissim lectus ac nunc consectetur mattis. Proin vel
-                    hendrerit ipsum, et lobortis dolor. Vestibulum convallis,
-                    nibh et tincidunt tristique, nisl risus facilisis lectus, ut
-                    interdum orci nisl ac nunc. Cras et aliquam felis. Quisque
-                    vel ipsum at elit sodales posuere eget non est. Fusce
-                    convallis vestibulum dolor non volutpat. Vivamus vestibulum
-                    quam ut ultricies pretium.
+                    After the patient is treated, the patient will go to the
+                    inquiry again to pay the bill and receive a printed bill.
+                    This program simplifies the process of managing patient
+                    information, treatments, and billing for a medical facility.
                   </p>
                 </div>
                 <!-- <div class="details">fsadfsdf</div> -->
@@ -190,65 +171,25 @@
               </div>
               <div class="swiper-slide DataBase">
                 <iframe
+                  width="100%"
+                  src="https://www.youtube.com/embed/3KAEo-B8NIo"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen
-                  width="1000"
-                  height="400"
-                  class="DataBase"
-                  src="https://www.youtube.com/embed/tgbNymZ7vqY"
                 ></iframe>
                 <div class="container db-text">
+                  <h3 class="h3">Keylogger connected with Firebase (Python)</h3>
                   <p>
-                    Curabitur eget aliquam erat. Curabitur a neque vitae purus
-                    volutpat elementum. Vivamus quis vestibulum leo, efficitur
-                    ullamcorper velit. Integer tincidunt finibus metus vel
-                    porta. Mauris sed mauris congue, pretium est nec, malesuada
-                    purus. Nulla hendrerit consectetur arcu et lacinia.
-                    Suspendisse augue justo, convallis eget arcu in, pretium
-                    tempor ligula. Nullam vulputate tincidunt est ut
-                    ullamcorper.
-                  </p>
-                  <p>
-                    Curabitur sed sodales leo. Nulla facilisi. Etiam
-                    condimentum, nisi id tempor vulputate, nisi justo cursus
-                    justo, pellentesque condimentum diam arcu sit amet leo. Cum
-                    sociis natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. In placerat tellus a posuere
-                    vehicula. Donec diam massa, efficitur vitae mattis et,
-                    pretium in augue. Fusce iaculis mi quis ante venenatis, sit
-                    amet pellentesque orci aliquam. Vestibulum elementum posuere
-                    vehicula.
-                  </p>
-                  <p>
-                    Sed tincidunt diam a massa pharetra faucibus. Praesent
-                    condimentum id arcu nec fringilla. Maecenas faucibus, ante
-                    et venenatis interdum, erat mi eleifend dui, at convallis
-                    nisl est nec arcu. Duis vitae arcu rhoncus, faucibus magna
-                    ut, tempus metus. Cras in nibh sed ipsum consequat rhoncus.
-                    Proin fringilla nulla ut augue tempor fermentum. Nunc
-                    hendrerit non nisi vitae finibus. Donec eget ornare libero.
-                    Aliquam auctor erat enim, a semper risus semper at. In ut
-                    dui in metus tincidunt euismod eget et lacus. Aenean et
-                    dictum urna, sed rhoncus lorem. Duis pharetra sagittis odio.
-                    Etiam a libero ut nisi feugiat tincidunt vel vitae turpis.
-                    Maecenas vel orci sit amet lorem hendrerit venenatis
-                    sollicitudin ut dui. Quisque rhoncus nibh in massa pretium
-                    scelerisque.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    luctus, ex eu sagittis faucibus, ligula ipsum sagittis
-                    magna, et imperdiet dolor lectus eu libero. Vestibulum
-                    venenatis eget turpis sed faucibus. Maecenas in ullamcorper
-                    orci, eu ullamcorper sem. Etiam elit ante, luctus non ante
-                    sit amet, sodales vulputate odio. Aenean tristique nisl
-                    tellus, sit amet fringilla nisl volutpat cursus. Quisque
-                    dignissim lectus ac nunc consectetur mattis. Proin vel
-                    hendrerit ipsum, et lobortis dolor. Vestibulum convallis,
-                    nibh et tincidunt tristique, nisl risus facilisis lectus, ut
-                    interdum orci nisl ac nunc. Cras et aliquam felis. Quisque
-                    vel ipsum at elit sodales posuere eget non est. Fusce
-                    convallis vestibulum dolor non volutpat. Vivamus vestibulum
-                    quam ut ultricies pretium.
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This
+                    keylogger program, written in Python, captures any key
+                    presses made on the keyboard and encrypts the data into a
+                    text file on the user's device. Every two minutes, the
+                    program decrypts the data and sends it to my account on
+                    Firebase. It is important to note that creating and using
+                    keyloggers without proper authorization is illegal and
+                    unethical. It is important to use this tool with caution and
+                    obtain proper consent before use.
                   </p>
                 </div>
                 <!-- <div class="details">fsadfsdf</div> -->
@@ -256,65 +197,29 @@
               </div>
               <div class="swiper-slide DataBase">
                 <iframe
+                  width="100%"
+                  src="https://www.youtube.com/embed/FH6x0i3CyLs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen
-                  width="1000"
-                  height="400"
-                  class="DataBase"
-                  src="https://www.youtube.com/embed/tgbNymZ7vqY"
                 ></iframe>
                 <div class="container db-text">
+                  <h3 class="h3">
+                    Open my account without writing my email and password
+                    (Python)
+                  </h3>
                   <p>
-                    Curabitur eget aliquam erat. Curabitur a neque vitae purus
-                    volutpat elementum. Vivamus quis vestibulum leo, efficitur
-                    ullamcorper velit. Integer tincidunt finibus metus vel
-                    porta. Mauris sed mauris congue, pretium est nec, malesuada
-                    purus. Nulla hendrerit consectetur arcu et lacinia.
-                    Suspendisse augue justo, convallis eget arcu in, pretium
-                    tempor ligula. Nullam vulputate tincidunt est ut
-                    ullamcorper.
-                  </p>
-                  <p>
-                    Curabitur sed sodales leo. Nulla facilisi. Etiam
-                    condimentum, nisi id tempor vulputate, nisi justo cursus
-                    justo, pellentesque condimentum diam arcu sit amet leo. Cum
-                    sociis natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. In placerat tellus a posuere
-                    vehicula. Donec diam massa, efficitur vitae mattis et,
-                    pretium in augue. Fusce iaculis mi quis ante venenatis, sit
-                    amet pellentesque orci aliquam. Vestibulum elementum posuere
-                    vehicula.
-                  </p>
-                  <p>
-                    Sed tincidunt diam a massa pharetra faucibus. Praesent
-                    condimentum id arcu nec fringilla. Maecenas faucibus, ante
-                    et venenatis interdum, erat mi eleifend dui, at convallis
-                    nisl est nec arcu. Duis vitae arcu rhoncus, faucibus magna
-                    ut, tempus metus. Cras in nibh sed ipsum consequat rhoncus.
-                    Proin fringilla nulla ut augue tempor fermentum. Nunc
-                    hendrerit non nisi vitae finibus. Donec eget ornare libero.
-                    Aliquam auctor erat enim, a semper risus semper at. In ut
-                    dui in metus tincidunt euismod eget et lacus. Aenean et
-                    dictum urna, sed rhoncus lorem. Duis pharetra sagittis odio.
-                    Etiam a libero ut nisi feugiat tincidunt vel vitae turpis.
-                    Maecenas vel orci sit amet lorem hendrerit venenatis
-                    sollicitudin ut dui. Quisque rhoncus nibh in massa pretium
-                    scelerisque.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    luctus, ex eu sagittis faucibus, ligula ipsum sagittis
-                    magna, et imperdiet dolor lectus eu libero. Vestibulum
-                    venenatis eget turpis sed faucibus. Maecenas in ullamcorper
-                    orci, eu ullamcorper sem. Etiam elit ante, luctus non ante
-                    sit amet, sodales vulputate odio. Aenean tristique nisl
-                    tellus, sit amet fringilla nisl volutpat cursus. Quisque
-                    dignissim lectus ac nunc consectetur mattis. Proin vel
-                    hendrerit ipsum, et lobortis dolor. Vestibulum convallis,
-                    nibh et tincidunt tristique, nisl risus facilisis lectus, ut
-                    interdum orci nisl ac nunc. Cras et aliquam felis. Quisque
-                    vel ipsum at elit sodales posuere eget non est. Fusce
-                    convallis vestibulum dolor non volutpat. Vivamus vestibulum
-                    quam ut ultricies pretium.
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This
+                    python script store my email and password for the Zajel
+                    website internally, so that I do not have to manually enter
+                    them every time I access the site. This can be useful for
+                    situations where I sharing my device with others and wants
+                    to keep my login information private, or if I simply want to
+                    save time by not having to type in my information every time
+                    I access the website. The script is written in such a way
+                    that the password are not displayed, keeping the user's
+                    login information secure.
                   </p>
                 </div>
                 <!-- <div class="details">fsadfsdf</div> -->
@@ -322,65 +227,27 @@
               </div>
               <div class="swiper-slide DataBase">
                 <iframe
+                  width="100%"
+                  src="https://www.youtube.com/embed/LU1cWj-9Gjg"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen
-                  width="1000"
-                  height="400"
-                  class="DataBase"
-                  src="https://www.youtube.com/embed/tgbNymZ7vqY"
                 ></iframe>
                 <div class="container db-text">
+                  <h3 class="h3">Simple Python automation</h3>
+
                   <p>
-                    Curabitur eget aliquam erat. Curabitur a neque vitae purus
-                    volutpat elementum. Vivamus quis vestibulum leo, efficitur
-                    ullamcorper velit. Integer tincidunt finibus metus vel
-                    porta. Mauris sed mauris congue, pretium est nec, malesuada
-                    purus. Nulla hendrerit consectetur arcu et lacinia.
-                    Suspendisse augue justo, convallis eget arcu in, pretium
-                    tempor ligula. Nullam vulputate tincidunt est ut
-                    ullamcorper.
-                  </p>
-                  <p>
-                    Curabitur sed sodales leo. Nulla facilisi. Etiam
-                    condimentum, nisi id tempor vulputate, nisi justo cursus
-                    justo, pellentesque condimentum diam arcu sit amet leo. Cum
-                    sociis natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. In placerat tellus a posuere
-                    vehicula. Donec diam massa, efficitur vitae mattis et,
-                    pretium in augue. Fusce iaculis mi quis ante venenatis, sit
-                    amet pellentesque orci aliquam. Vestibulum elementum posuere
-                    vehicula.
-                  </p>
-                  <p>
-                    Sed tincidunt diam a massa pharetra faucibus. Praesent
-                    condimentum id arcu nec fringilla. Maecenas faucibus, ante
-                    et venenatis interdum, erat mi eleifend dui, at convallis
-                    nisl est nec arcu. Duis vitae arcu rhoncus, faucibus magna
-                    ut, tempus metus. Cras in nibh sed ipsum consequat rhoncus.
-                    Proin fringilla nulla ut augue tempor fermentum. Nunc
-                    hendrerit non nisi vitae finibus. Donec eget ornare libero.
-                    Aliquam auctor erat enim, a semper risus semper at. In ut
-                    dui in metus tincidunt euismod eget et lacus. Aenean et
-                    dictum urna, sed rhoncus lorem. Duis pharetra sagittis odio.
-                    Etiam a libero ut nisi feugiat tincidunt vel vitae turpis.
-                    Maecenas vel orci sit amet lorem hendrerit venenatis
-                    sollicitudin ut dui. Quisque rhoncus nibh in massa pretium
-                    scelerisque.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    luctus, ex eu sagittis faucibus, ligula ipsum sagittis
-                    magna, et imperdiet dolor lectus eu libero. Vestibulum
-                    venenatis eget turpis sed faucibus. Maecenas in ullamcorper
-                    orci, eu ullamcorper sem. Etiam elit ante, luctus non ante
-                    sit amet, sodales vulputate odio. Aenean tristique nisl
-                    tellus, sit amet fringilla nisl volutpat cursus. Quisque
-                    dignissim lectus ac nunc consectetur mattis. Proin vel
-                    hendrerit ipsum, et lobortis dolor. Vestibulum convallis,
-                    nibh et tincidunt tristique, nisl risus facilisis lectus, ut
-                    interdum orci nisl ac nunc. Cras et aliquam felis. Quisque
-                    vel ipsum at elit sodales posuere eget non est. Fusce
-                    convallis vestibulum dolor non volutpat. Vivamus vestibulum
-                    quam ut ultricies pretium.
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This
+                    Python script automates the process of repeatedly refreshing
+                    a web page in order to check for a specific subject to
+                    become available for registration. Instead of having to
+                    manually reload the page multiple times and wait for the
+                    desired subject to open, the script does this task for the
+                    user. This not only saves time but also allows the user to
+                    engage in other activities. It's a great tool for those
+                    looking to register for a limited-availability course, event
+                    or program.
                   </p>
                 </div>
                 <!-- <div class="details">fsadfsdf</div> -->
@@ -391,14 +258,14 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-pagination"></div>
           </div>
+          <div class="append-buttons d-flex justify-content-center">
+            <a href="#" class="slide-1">Health Center project</a>
+            <a href="#" class="slide-2">Keylogger with Firebase</a>
+            <a href="#" class="slide-3">Automated Opening account</a>
+            <a href="#" class="slide-4">Mouse automation</a>
+            <!-- <a href="#" class="append-slide">Append Slide</a> -->
+          </div>
         </div>
-        <p class="append-buttons">
-          <a href="#" class="prepend-2-slides">Prepend 2 Slides</a>
-          <a href="#" class="slide-1">Slide 1</a>
-          <a href="#" class="slide-250">Slide 250</a>
-          <a href="#" class="slide-500">Slide 500</a>
-          <a href="#" class="append-slide">Append Slide</a>
-        </p>
       </section>
       <!-- Swiper JS -->
       <script src="node_modules/swiper/swiper-bundle.min.js"></script>
@@ -418,6 +285,7 @@
             prevEl: ".swiper-button-prev",
           },
         });
+
         document
           .querySelector(".slide-1")
           .addEventListener("click", function (e) {
@@ -426,153 +294,161 @@
           });
 
         document
-          .querySelector(".slide-250")
+          .querySelector(".slide-2")
           .addEventListener("click", function (e) {
             e.preventDefault();
-            swiper.slideTo(249, 0);
+            swiper.slideTo(1, 0);
           });
 
         document
-          .querySelector(".slide-500")
+          .querySelector(".slide-3")
           .addEventListener("click", function (e) {
             e.preventDefault();
-            swiper.slideTo(499, 0);
+            swiper.slideTo(2, 0);
+          });
+        document
+          .querySelector(".slide-4")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.slideTo(3, 0);
           });
 
-        document
-          .querySelector(".prepend-2-slides")
-          .addEventListener("click", function (e) {
-            e.preventDefault();
-            swiper.virtual.prependSlide([
-              "Slide " + --prependNumber,
-              "Slide " + --prependNumber,
-            ]);
-          });
+        // document
+        //   .querySelector(".prepend-2-slides")
+        //   .addEventListener("click", function (e) {
+        //     e.preventDefault();
+        //     swiper.virtual.prependSlide([
+        //       "Slide " + --prependNumber,
+        //       "Slide " + --prependNumber,
+        //     ]);
+        //   });
 
-        document
-          .querySelector(".append-slide")
-          .addEventListener("click", function (e) {
-            e.preventDefault();
-            swiper.virtual.appendSlide("Slide " + ++appendNumber);
-          });
+        // document
+        //   .querySelector(".append-slide")
+        //   .addEventListener("click", function (e) {
+        //     e.preventDefault();
+        //     swiper.virtual.appendSlide("Slide " + ++appendNumber);
+        //   });
       </script>
       <section class="skills" id="skills">
-        <div class="container" id="bars">
-          <h1 class="skillsW">skills</h1>
-          <div class="skill-bars mt-4 d-flex">
-            <div class="left w-50 me-5">
-              <div class="bar">
-                <div class="info">
-                  <span>C & C++</span>
+        <div class="temp">
+          <div class="container" id="bars">
+            <h1 class="skillsW">skills</h1>
+            <div class="skill-bars d-flex">
+              <div class="left w-50">
+                <div class="bar">
+                  <div class="info">
+                    <span>C & C++</span>
+                  </div>
+                  <div class="progress-line c">
+                    <span></span>
+                  </div>
                 </div>
-                <div class="progress-line c">
-                  <span></span>
+                <div class="bar">
+                  <div class="info">
+                    <span>Java</span>
+                  </div>
+                  <div class="progress-line java">
+                    <span></span>
+                  </div>
                 </div>
-              </div>
-              <div class="bar">
-                <div class="info">
-                  <span>Java</span>
+                <div class="bar">
+                  <div class="info">
+                    <span>Python</span>
+                  </div>
+                  <div class="progress-line python">
+                    <span></span>
+                  </div>
                 </div>
-                <div class="progress-line java">
-                  <span></span>
+                <div class="bar">
+                  <div class="info">
+                    <span>Git & Github</span>
+                  </div>
+                  <div class="progress-line git">
+                    <span></span>
+                  </div>
                 </div>
-              </div>
-              <div class="bar">
-                <div class="info">
-                  <span>Python</span>
+                <div class="bar">
+                  <div class="info">
+                    <span>SQL</span>
+                  </div>
+                  <div class="progress-line mysql">
+                    <span></span>
+                  </div>
                 </div>
-                <div class="progress-line python">
-                  <span></span>
+                <div class="bar">
+                  <div class="info">
+                    <span>NoSQL</span>
+                  </div>
+                  <div class="progress-line nosql">
+                    <span></span>
+                  </div>
                 </div>
-              </div>
-              <div class="bar">
-                <div class="info">
-                  <span>Git & Github</span>
-                </div>
-                <div class="progress-line git">
-                  <span></span>
-                </div>
-              </div>
-              <div class="bar">
-                <div class="info">
-                  <span>SQL</span>
-                </div>
-                <div class="progress-line mysql">
-                  <span></span>
-                </div>
-              </div>
-              <div class="bar">
-                <div class="info">
-                  <span>NoSQL</span>
-                </div>
-                <div class="progress-line nosql">
-                  <span></span>
-                </div>
-              </div>
-              <div class="bar">
-                <div class="info">
-                  <span>HTML</span>
-                </div>
-                <div class="progress-line html">
-                  <span></span>
-                </div>
-              </div>
-            </div>
-            <div class="right w-50">
-              <div class="bar">
-                <div class="info">
-                  <span>Css</span>
-                </div>
-                <div class="progress-line css">
-                  <span></span>
+                <div class="bar">
+                  <div class="info">
+                    <span>HTML</span>
+                  </div>
+                  <div class="progress-line html">
+                    <span></span>
+                  </div>
                 </div>
               </div>
-              <div class="bar">
-                <div class="info">
-                  <span>Java Scrpit</span>
+              <div class="right w-50">
+                <div class="bar">
+                  <div class="info">
+                    <span>Css</span>
+                  </div>
+                  <div class="progress-line css">
+                    <span></span>
+                  </div>
                 </div>
-                <div class="progress-line js">
-                  <span></span>
+                <div class="bar">
+                  <div class="info">
+                    <span>Java Scrpit</span>
+                  </div>
+                  <div class="progress-line js">
+                    <span></span>
+                  </div>
                 </div>
-              </div>
-              <div class="bar">
-                <div class="info">
-                  <span>JQuery</span>
+                <div class="bar">
+                  <div class="info">
+                    <span>JQuery</span>
+                  </div>
+                  <div class="progress-line jquery">
+                    <span></span>
+                  </div>
                 </div>
-                <div class="progress-line jquery">
-                  <span></span>
+                <div class="bar">
+                  <div class="info">
+                    <span>Bootstrap</span>
+                  </div>
+                  <div class="progress-line boot">
+                    <span></span>
+                  </div>
                 </div>
-              </div>
-              <div class="bar">
-                <div class="info">
-                  <span>Bootstrap</span>
+                <div class="bar">
+                  <div class="info">
+                    <span>PHP</span>
+                  </div>
+                  <div class="progress-line php">
+                    <span></span>
+                  </div>
                 </div>
-                <div class="progress-line boot">
-                  <span></span>
+                <div class="bar">
+                  <div class="info">
+                    <span>PhotoShop</span>
+                  </div>
+                  <div class="progress-line photo">
+                    <span></span>
+                  </div>
                 </div>
-              </div>
-              <div class="bar">
-                <div class="info">
-                  <span>PHP</span>
-                </div>
-                <div class="progress-line php">
-                  <span></span>
-                </div>
-              </div>
-              <div class="bar">
-                <div class="info">
-                  <span>PhotoShop</span>
-                </div>
-                <div class="progress-line photo">
-                  <span></span>
-                </div>
-              </div>
-              <div class="bar">
-                <div class="info">
-                  <span>Adobe Premiere</span>
-                </div>
-                <div class="progress-line prem">
-                  <span></span>
+                <div class="bar">
+                  <div class="info">
+                    <span>Adobe Premiere</span>
+                  </div>
+                  <div class="progress-line prem">
+                    <span></span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -581,7 +457,12 @@
       </section>
     </main>
     <footer>
-      <div class="footer">CopyRight &copy; by Ahmad Nazzal 2023</div>
+      <div class="footer">&copy;CopyRight by Ahmad Nazzal 2023</div>
     </footer>
+    <script>
+      $(window).on("load", function () {
+        $(".preloader").fadeOut(1500);
+      });
+    </script>
   </body>
 </html>
